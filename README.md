@@ -30,7 +30,7 @@ This file implements graph operations. This also contains a Dijkstra’s Algorit
 
 7) printShortestPath(): This method finds the shortest path between source and destination. This method takes two parameters source and destination vertex.
 8) displayGraph(): This method print graph generated from the input file.
-9) findReachableVertices(): This method finds reachable vertices.
+9) reachable(): This method finds reachable vertices.
 
 # Vertex.java: 
 This file contains information about vertex such as the name of vertex and details about vertex to which it is connected with an edge. It also contains getter and setter methods.
