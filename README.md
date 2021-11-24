@@ -16,10 +16,10 @@ This project contains four files:
 4) Edge.java
 5) Heap.java
 
-# Main.java: 
+- Main.java: 
 Main.java is a file from where project implementation starts. Main.java implements the main method. Main.java contains method generateGraph which takes file name from command prompt and generates the graph. It also contains method performGraphOperation which perform all graph operations which are mentioned for project implementation like addedge, deleteedge, markEdgedown, markEdgeup, markVertexDown, markVertexUp, computeShortestPath.
 
-# Graph.java: 
+- Graph.java: 
 This file implements graph operations. This also contains a Dijkstra’s Algorithm implementation. This class implements all graph operation methods. Graph operation methods are as follows:
 1) addEdge(): This method is used to add a new edge in a graph. This method takes three parameters: source vertex, destination vertex, edge cost. If a vertex is not available in a graph then it adds a new vertex and then connects two vertices.
 2) deleteEdge(): This method is used to delete an edge from a graph. This method takes two parameters: source vertex, destination vertex.
@@ -32,13 +32,13 @@ This file implements graph operations. This also contains a Dijkstra’s Algorit
 8) displayGraph(): This method print graph generated from the input file.
 9) reachable(): This method finds reachable vertices.
 
-# Vertex.java: 
+- Vertex.java: 
 This file contains information about vertex such as the name of vertex and details about vertex to which it is connected with an edge. It also contains getter and setter methods.
 
-# Edge.java: 
+- Edge.java: 
 This file contains information about an edge such as edge weight and isEdge up or not. It also contains getter and setter methods.
 
-# Heap.java: 
+- Heap.java: 
 This file contains implementation of binary heap which is used for Dijkstra’s algorithm.
 
 # Data Structures Used:
