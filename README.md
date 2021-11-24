@@ -17,7 +17,7 @@ This project contains four files:
 5) Heap.java
 
 # Main.java: 
-Main.java is a file from where project implementation starts. Main.java implements the main method. Main.java contains method generateGraph which takes file name from command prompt and generates the graph. It also contains method performGraphOperation which perform all graph operations which are mentioned for project implementation like addedge, deleteedge, edgedown, edgeup, vertexdown, vertexup, path, print, reachable.
+Main.java is a file from where project implementation starts. Main.java implements the main method. Main.java contains method generateGraph which takes file name from command prompt and generates the graph. It also contains method performGraphOperation which perform all graph operations which are mentioned for project implementation like addedge, deleteedge, markEdgedown, markEdgeup, markVertexDown, markVertexUp, computeShortestPath.
 
 # Graph.java: 
 This file implements graph operations. This also contains a Dijkstra’s Algorithm implementation. This class implements all graph operation methods. Graph operation methods are as follows:
